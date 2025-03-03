@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, #BF883C, #FFE474);
+}
+
+nav {
+    background-color: #874D17;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 25px;
+    border-radius: 35px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.568);
+}
+
+div#logo {
+    display: flex;
+    align-items: center;
+}
+
+img#cafe-logo {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-left: 10px;
+}
+
+h1 {
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: "Sour Gummy", serif;
+    font-weight: 400;
+    font-size: 45px;
+}  
+
+h1, ul {
+    color: #FFE474;
+    text-decoration: none;
+}
+
+h1:hover {
+    margin: 15px;
+    transition: 0.5s;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+    font-size: larger;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+li:hover {
+    text-decoration: underline;
+    background-color: #572200;
+    transition: 0.4s;
+    padding: 10x;
+    margin: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffe062;
+    padding: 20px;
+    font-family: "Sour Gummy", serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+div#cafe-espresso {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    padding-bottom: 15px;
+    display: block;
+    border: 10px solid #874D17;
+    border-radius: 80px;
+    margin-top: 130px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+div#cafe-espresso > img {
+    width: 450px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50% 50%;
+}
+
+div#cafe-espresso > img:hover {
+    width: 470px;
+    height: 420px;
+    transition: 1s;
+}
+
+div#cafe-doppio {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    padding-bottom: 15px;
+    display: block;
+    border: 10px solid #874D17;
+    border-radius: 80px;
+    margin-top: 130px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+div#cafe-doppio > img {
+    width: 450px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50% 50%;
+}
+
+div#cafe-doppio > img:hover {
+    width: 470px;
+    height: 420px;
+    transition: 1s;
+}
+
+h2.titulo-cafe {
+    font-family: "DynaPuff", serif;
+    font-weight: 500;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    color: #572200;
+    text-align: center;
+}
+
+p.texto-cafe {
+    font-family: "DynaPuff", serif;
+    font-weight: 200;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+div#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    background-color: #572200;
+    color: #ffe062;
+    text-align: center;
+    width: 100%;
+    font-family: "DynaPuff", serif;
+    font-weight: 200;
+}
